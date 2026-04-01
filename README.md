@@ -23,7 +23,7 @@ Tools: Git, Bitbucket, Jira
 Other: Agile Coordination, Process Improvement
 
 1. Clone the repository
-git clone https://github.com/yourusername/nashrah-resume.git
+git clone https://github.com/Nashrah01/Nashrah_HTML_Resume.git
 2. Open locally
 
 Simply open index.html in your browser.
