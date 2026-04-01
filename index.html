@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nashrah Sabi | Frontend Developer</title>
+<style>
+    :root {
+        --primary: #0f172a;
+        /* --accent: #2563eb; */
+        --accent: #142a5f;
+        --light: #f8fafc;
+        --text: #1e293b;
+        --muted: #64748b;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: var(--light);
+        color: var(--text);
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        background: #fff;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    }
+
+    .sidebar {
+        background: var(--primary);
+        color: #fff;
+        padding: 30px;
+    }
+
+    .sidebar h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding-bottom: 5px;
+    }
+
+    .sidebar p, .sidebar li {
+        font-size: 14px;
+        margin-bottom: 8px;
+        color: #e2e8f0;
+    }
+
+    .main {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .role {
+        color: var(--accent);
+        
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        font-size: 14px;
+        color: var(--muted);
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #e2e8f0;
+        padding-bottom: 5px;
+    }
+
+    ul {
+        padding-left: 18px;
+    }
+
+    li {
+        margin-bottom: 6px;
+    }
+
+    .job {
+        margin-bottom: 18px;
+    }
+
+    .job-title {
+        font-weight: 600;
+    }
+
+    .company {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+
+    .badge {
+        display: inline-block;
+        background: #e0ecff;
+        color: #1d4ed8;
+        padding: 4px 8px;
+        border-radius: 6px;
+        font-size: 12px;
+        margin: 3px;
+    }
+
+    @media print {
+        body { background: #fff; }
+        .container { box-shadow: none; margin: 0; }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Contact</h2>
+        <p>Al Nahda, Sharjah, UAE</p>
+        <p>+971551685068</p>
+        <p>sabi.nashrah@gmail.com</p>
+        <p>linkedin.com/in/nashrah-sabi</p>
+
+        <h2>Skills</h2>
+        <p><strong>Tech</strong></p>
+        <p>HTML5, CSS3, JavaScript, React.js, WordPress, SEO</p>
+        <p><strong>Tools</strong></p>
+        <p>Jira, Bitbucket, Git</p>
+        <p><strong>Business</strong></p>
+        <p>Agile Coordination, Client Engagement, Quality Enhancement</p>
+
+        <h2>Achievements</h2>
+        <p>Rising Star Award - Jun 2019</p>
+        <p>Rising Star Award - Sep 2020</p>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h1>Nashrah Sabi</h1>
+        <div class="role">Frontend Developer | Technical Team Coordinator</div>
+        <div class="contact">4+ Years Experience | Team Leadership | Client Management</div>
+
+        <h2>Professional Summary</h2>
+        <p>
+            Results-driven Frontend Developer and Team Coordinator with 4+ years of experience leading teams, managing client relationships, and delivering high-quality digital solutions. Proven ability to mentor teams, resolve escalations, and improve processes to drive service excellence. Strong blend of technical expertise and leadership with focus on stakeholder alignment and performance growth.
+        </p>
+
+        <h2>Experience</h2>
+
+        <div class="job">
+            <div class="job-title">Programmer Analyst</div>
+            <div class="company">Ebizon | Mar 2021 — Oct 2022</div>
+            <ul>
+                <li>Mentored junior developers, improving delivery quality and productivity.</li>
+                <li>Acted as SPOC for clients, managing escalations and ensuring timely resolution.</li>
+                <li>Collaborated with stakeholders to align priorities and maintain service standards.</li>
+                <li>Enhanced JIRA workflows, improving KPI tracking and operational efficiency.</li>
+                <li>Delivered SEO-optimized and WCAG-compliant WordPress solutions.</li>
+                <li>Resolved complex technical challenges ensuring smooth project delivery.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Associate Software Engineer</div>
+            <div class="company">NIIT Limited | Sep 2018 — Mar 2021</div>
+            <ul>
+                <li>Led production team ensuring quality and timely delivery of projects.</li>
+                <li>Managed task allocation, tracking, and coordination across teams.</li>
+                <li>Acted as SPOC between clients and development teams.</li>
+                <li>Provided LMS technical support, reducing downtime and improving UX.</li>
+                <li>Developed scalable e-learning solutions using HTML, CSS, JS, XML.</li>
+                <li>Created reusable templates to streamline workflows.</li>
+            </ul>
+        </div>
+
+        <h2>Education</h2>
+        <p><strong>Bachelor of Technology</strong> (2014 — 2018)</p>
+        <p>Bundelkhand University | 74%</p>
+
+    </div>
+</div>
+
+</body>
+</html>
