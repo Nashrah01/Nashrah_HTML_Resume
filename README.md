@@ -4,7 +4,7 @@ Welcome to my personal portfolio website and interactive resume. This project sh
 
 🚀 Live Website
 
-👉 https://yourusername.github.io/nashrah-resume
+👉 https://nashrah01.github.io/Nashrah_HTML_Resume/
 
 👩‍💻 About Me
 
